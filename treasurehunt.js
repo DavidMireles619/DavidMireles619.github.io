@@ -5,10 +5,10 @@
 var locationRainbow= Math.floor(Math.random() * 8) 
 var locationBomb= Math.floor(Math.random() * 8) 
 if(locationRainbow===locationBomb){ locationBomb= Math.floor(Math.random() * 8)}
-console.log("Win",locationRainbow,"lose",locationBomb)
+
 
 const warning = (location) => {
-console.log(location)
+
 
 
 if (location === locationBomb) {alert("Sorry try again")
